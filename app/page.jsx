@@ -11,10 +11,10 @@ function page() {
     <div className="">
       <First />
       {/* <CustomModal /> */}
-      {/* <Count />
+      <Count />
       <Description />
       <TeamLeaders />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

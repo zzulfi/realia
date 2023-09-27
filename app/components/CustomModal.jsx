@@ -10,7 +10,7 @@ const Popup = () => {
 
   return (
     <div>
-      <button
+      {/* <button
         onClick={togglePopup}
         className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
       >
@@ -29,7 +29,7 @@ const Popup = () => {
             </button>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 };

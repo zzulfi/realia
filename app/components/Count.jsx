@@ -18,28 +18,28 @@ function Count() {
         className="text-center text-white md:hidden mb-10"
       >
         <h1 className="text-5xl font-black">
-          <span className="font-nexa">Realia</span>'
+          <span className="font-nexa">Realia</span>&apos;
           <span className="font-nexa">23</span>
         </h1>
         <h2 className="text-xl leading-4 font-nexa">DHIU UG Arts Fest</h2>
       </div>
       <div className="w-full hidden md:flex justify-between items-start">
         <div>
-          <img
+          <Image
             src="/realia-txt.png" // Path to the image in the public folder
             alt="Realia Logo"
             className="h-10 md:h-16"
           />
         </div>
         <div>
-          <img
+          <Image
             className="h-8"
             src="/asasicon.png" // Path to the image in the public folder
             alt="Realia Logo"
           />
         </div>
       </div>
-      <img
+      <Image
         src="/tile.png" // Path to the image in the public folder
         alt="Realia Tile"
         data-aos="fade-up"

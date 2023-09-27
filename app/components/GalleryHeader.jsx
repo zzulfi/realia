@@ -2,19 +2,21 @@
 import React, { useState } from "react";
 import { MenuIcon } from "./Icons";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 
+import { useRouter } from "next/navigation"
 
-function Header() {
+function GalleryHeader() {
   const [showPopup, setShowPopup] = useState(false);
 
   const togglePopup = () => {
     setShowPopup(!showPopup);
   };
+
+  
   const router = useRouter()
 
   return (
-    <header className="flex justify-between items-center">
+    <header className="flex justify-between items-center bg-theme p-5 lg:p-0 lg:pl-5 rounded-md">
       <Image src="/realia-txt.png" alt="Realia Logo" className="h-10 md:h-16" />
       <div className="flex items-center text-lg font-light ">
         <div className="lg:hidden cursor-pointer" onClick={togglePopup}>
@@ -22,16 +24,16 @@ function Header() {
         </div>
         <nav className="hidden lg:block cursor-pointer">
           <ul className="flex flex-col lg:flex-row transition-all duration-700">
-            <li onClick={()=>router.push('/')} className=" text-white font-semibold border-white border px-4 py-1 rounded-3xl hover:text-theme hover:bg-white">
+            <li className=" text-white font-semibold border-white border px-4 py-1 rounded-3xl hover:text-theme hover:bg-white" onClick={()=>router.push('/')}>
               Home
             </li>
             <li onClick={()=>router.push('/')} className="transition-all duration-400 text-white px-4 py-1 rounded-3xl hover:font-bold">
               Result
             </li>
-            <li  onClick={()=>router.push('/gallery')} className="transition-all duration-400 text-white px-4 py-1 rounded-3xl hover:font-bold">
+            <li onClick={()=>router.push('/gallery')} className="transition-all duration-400 text-white px-4 py-1 rounded-3xl hover:font-bold">
               Gallery
             </li>
-            <li  onClick={()=>router.push('/')} className="transition-all duration-400 text-white px-4 py-1 rounded-3xl hover:font-bold">
+            <li onClick={()=>router.push('/')} className="transition-all duration-400 text-white px-4 py-1 rounded-3xl hover:font-bold">
               Profile
             </li>
           </ul>
@@ -66,12 +68,12 @@ function Header() {
             </div>
             <nav>
               <ul className="mt-8 transition-all duration-400">
-                <li className=" text-theme font-semibold border-theme border px-4 py-1 rounded-3xl hover:text-white hover:bg-theme " onClick={()=>router.push('/')}>
+                <li onClick={()=>router.push('/')} className=" text-theme font-semibold border-theme border px-4 py-1 rounded-3xl hover:text-white hover:bg-theme ">
                   Home
                 </li>
-                <li className="text-theme px-4 py-1 rounded-3xl" onClick={()=>router.push('/')}>Result</li>
-                <li className="text-theme px-4 py-1 rounded-3xl" onClick={()=>router.push('/gallery')}>Gallery</li>
-                <li className="text-theme px-4 py-1 rounded-3xl" onClick={()=>router.push('/')}>Profile</li>
+                <li onClick={()=>router.push('/')} className="text-theme px-4 py-1 rounded-3xl ">Result</li>
+                <li onClick={()=>router.push('/')} className="text-theme px-4 py-1 rounded-3xl">Gallery</li>
+                <li onClick={()=>router.push('/')} className="text-theme px-4 py-1 rounded-3xl">Profile</li>
               </ul>
             </nav>
           </div>
@@ -81,4 +83,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default GalleryHeader;

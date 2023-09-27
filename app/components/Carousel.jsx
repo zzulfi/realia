@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 
 const Carousel = ({ images }) => {
@@ -21,7 +22,7 @@ const Carousel = ({ images }) => {
             index === activeIndex ? 'opacity-100' : 'opacity-0'
           }`}
         >
-          <img src={image} alt={`Image ${index}`} className="w-full h-full" />
+          <Image src={image} alt={`Image ${index}`} className="w-full h-full" />
         </div>
       ))}
     </div>

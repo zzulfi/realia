@@ -18,7 +18,7 @@ function Description() {
       <div className="w-full p-16 flex justify-center lg:justify-between align-center">
         <div className="text-center lg:text-left" data-aos="fade-up">
           <h1 className="text-5xl font-black text-theme">
-            <span className="font-nexa">Results</span>'
+            <span className="font-nexa">Results</span>&apos;
             <span className="font-nexa">23</span>
           </h1>
           <h2 className="text-xl leading-4 font-nexa">Realia Arts Fest</h2>
@@ -32,7 +32,7 @@ function Description() {
           height={0} // Set the height of the image
         />
       </div>
-      <img
+      <Image
         src="/pattern.jpg" // Path to the image in the public folder
         alt="Realia Pattern"
         data-aos="fade-up"
