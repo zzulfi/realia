@@ -10,7 +10,6 @@ function Footer() {
             src="/realia-txt.png" // Path to the image in the public folder
             alt="Realia Logo"
             className="h-10 md:h-12"
-            
           />
         </div>
         <div className="font-light ">

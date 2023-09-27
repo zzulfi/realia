@@ -17,7 +17,9 @@ function GalleryHeader() {
 
   return (
     <header className="flex justify-between items-center bg-theme p-5 lg:p-0 lg:pl-5 rounded-md">
-      <Image src="/realia-txt.png" alt="Realia Logo" className="h-10 md:h-16 w-auto"  />
+
+      <Image src="/realia-txt.png" alt="Realia Logo" className="h-10 md:h-16" />
+
       <div className="flex items-center text-lg font-light ">
         <div className="lg:hidden cursor-pointer" onClick={togglePopup}>
           <MenuIcon />
@@ -39,7 +41,7 @@ function GalleryHeader() {
           </ul>
         </nav>
         <div>
-          <Image 
+          <Image
             src="/logo.png"
             alt="Realia Logo"
             width={150}
