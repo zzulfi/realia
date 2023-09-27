@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <header className="flex justify-between items-center">
-      <Image fill src="/realia-txt.png" alt="Realia Logo" className="h-10 md:h-16 w-auto"   />
+      <Image src="/realia-txt.png" alt="Realia Logo" className="h-10 md:h-16 w-auto"   />
       <div className="flex items-center text-lg font-light ">
         <div className="lg:hidden cursor-pointer" onClick={togglePopup}>
           <MenuIcon />
