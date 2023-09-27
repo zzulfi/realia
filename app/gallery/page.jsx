@@ -22,7 +22,7 @@ function page() {
         <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
       </svg>
     </button>
-    <Image
+    <Image fill
       className="h-auto max-w-full"
       src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
       alt=""
@@ -60,7 +60,7 @@ function page() {
         <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
       </svg>
     </button>
-    <Image
+    <Image fill
       className="w-[90%] mx-auto mt-24 mb-2"
       src="/chr"
       alt=""
@@ -121,7 +121,7 @@ function page() {
   <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-5 pt-5 lg:pt-10 transition-all duration-500 ">
     <div className="grid gap-4">
       <div>
-        <Image
+        <Image fill
           // onclick="document.getElementById('zoom-mobile').classList.remove('translate-x-full')"
           className="h-auto max-w-full rounded-lg"
           src="/chr.jpg"
@@ -129,14 +129,14 @@ function page() {
         />
       </div>
       <div>
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg"
           src="/cont.jpeg"
           alt=""
         />
       </div>
       <div>
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg"
           src="/gaz.jpeg"
           alt=""
@@ -145,7 +145,7 @@ function page() {
     </div>
     <div className="grid gap-4">
       <div>
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg"
           src="/tri.jpeg"
           alt=""
@@ -153,14 +153,14 @@ function page() {
         {/* realia image in this frame in phone only */}
       </div>
       <div>
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg"
           src="/her.jpeg"
           alt=""
         />
       </div>
       <div>
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg"
           src="/ing.jpeg"
           alt=""
@@ -169,21 +169,21 @@ function page() {
     </div>
     <div className="grid gap-4">
       <div>
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg"
           src="/f-lg.jpg"
           alt=""
         />
       </div>
       <div>
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg"
           src="/gft.jpeg"
           alt=""
         />
       </div>
       <div>
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg"
           src="/artwork.jpg"
           alt=""
@@ -192,7 +192,7 @@ function page() {
     </div>
     <div className="grid gap-4">
       <div>
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg"
           src="/box.jpeg"
           alt=""
@@ -200,29 +200,29 @@ function page() {
         {/* realia image in this frame in desktop only */}
       </div>
       <div>
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg mt-2"
           src="/1.jpg"
           alt=""
         />
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg mt-2"
           src="/2.jpg"
           alt=""
         />
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg mt-2"
           src="/3.jpg"
           alt=""
         />
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg mt-2"
           src="/4.jpg"
           alt=""
         />
       </div>
       <div>
-        <Image
+        <Image fill
           className="h-auto max-w-full rounded-lg"
           src="/lg-ing.jpeg"
           alt=""
