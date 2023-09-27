@@ -124,21 +124,21 @@ function page() {
         <Image
           // onclick="document.getElementById('zoom-mobile').classList.remove('translate-x-full')"
           className="h-auto max-w-full rounded-lg"
-          src="./chr.jpg"
+          src="/chr.jpg"
           alt=""
         />
       </div>
       <div>
         <Image
           className="h-auto max-w-full rounded-lg"
-          src="./cont.jpeg"
+          src="/cont.jpeg"
           alt=""
         />
       </div>
       <div>
         <Image
           className="h-auto max-w-full rounded-lg"
-          src="./gaz.jpeg"
+          src="/gaz.jpeg"
           alt=""
         />
       </div>
@@ -147,7 +147,7 @@ function page() {
       <div>
         <Image
           className="h-auto max-w-full rounded-lg"
-          src="./tri.jpeg"
+          src="/tri.jpeg"
           alt=""
         />
         {/* realia image in this frame in phone only */}
@@ -155,37 +155,14 @@ function page() {
       <div>
         <Image
           className="h-auto max-w-full rounded-lg"
-          src="./her.jpeg"
+          src="/her.jpeg"
           alt=""
         />
       </div>
       <div>
         <Image
           className="h-auto max-w-full rounded-lg"
-          src="./ing.jpeg"
-          alt=""
-        />
-      </div>
-    </div>
-    <div className="grid gap-4">
-      <div>
-        <Image
-          className="h-auto max-w-full rounded-lg"
-          src="./f-lg.jpg"
-          alt=""
-        />
-      </div>
-      <div>
-        <Image
-          className="h-auto max-w-full rounded-lg"
-          src="./gft.jpeg"
-          alt=""
-        />
-      </div>
-      <div>
-        <Image
-          className="h-auto max-w-full rounded-lg"
-          src="./artwork.jpg"
+          src="/ing.jpeg"
           alt=""
         />
       </div>
@@ -194,7 +171,30 @@ function page() {
       <div>
         <Image
           className="h-auto max-w-full rounded-lg"
-          src="./box.jpeg"
+          src="/f-lg.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <Image
+          className="h-auto max-w-full rounded-lg"
+          src="/gft.jpeg"
+          alt=""
+        />
+      </div>
+      <div>
+        <Image
+          className="h-auto max-w-full rounded-lg"
+          src="/artwork.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div className="grid gap-4">
+      <div>
+        <Image
+          className="h-auto max-w-full rounded-lg"
+          src="/box.jpeg"
           alt=""
         />
         {/* realia image in this frame in desktop only */}
@@ -202,29 +202,29 @@ function page() {
       <div>
         <Image
           className="h-auto max-w-full rounded-lg mt-2"
-          src="./1.jpg"
+          src="/1.jpg"
           alt=""
         />
         <Image
           className="h-auto max-w-full rounded-lg mt-2"
-          src="./2.jpg"
+          src="/2.jpg"
           alt=""
         />
         <Image
           className="h-auto max-w-full rounded-lg mt-2"
-          src="./3.jpg"
+          src="/3.jpg"
           alt=""
         />
         <Image
           className="h-auto max-w-full rounded-lg mt-2"
-          src="./4.jpg"
+          src="/4.jpg"
           alt=""
         />
       </div>
       <div>
         <Image
           className="h-auto max-w-full rounded-lg"
-          src="./lg-ing.jpeg"
+          src="/lg-ing.jpeg"
           alt=""
         />
       </div>
