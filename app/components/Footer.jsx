@@ -6,10 +6,11 @@ function Footer() {
     <footer className="bg-theme text-white text-sm p-16">
       <div className="flex flex-wrap gap-7">
         <div className="w-3/4">
-          <Image
+          <Image fill
             src="/realia-txt.png" // Path to the image in the public folder
             alt="Realia Logo"
             className="h-10 md:h-12"
+            
           />
         </div>
         <div className="font-light ">
