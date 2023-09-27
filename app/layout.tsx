@@ -7,10 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Realia 23',
   description: 'Deconstructing Disinformation',
-  keywords: ['realia', 'realia.live', 'asas', 'dhiu', 
-  'darul huda', 'dhiu arts fest',
-   'dhiu rabee fest', 'rabee fest dhiu', 'realia23'
-    , 'sibaq' , 'result portal realia']
+  icons : './1.j'
 }
 
 export default function RootLayout({
